@@ -15,12 +15,12 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <ReduxProvider>
-          <nav className="fixed top-0 left-0 w-full flex justify-center items-center bg-white shadow-md py-3.5">
+          <nav className="fixed top-0 left-0 z-50 w-full flex justify-center items-center bg-white shadow-md py-3.5">
             <Link href="/">
               <Image src={logo} alt="logo" className="w-40 h-auto" />
             </Link>
           </nav>
-          <div className="pt-20">{children}</div>
+          <div className="pt-[80px]">{children}</div>
         </ReduxProvider>
       </body>
     </html>
