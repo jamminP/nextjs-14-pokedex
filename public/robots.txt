@@ -1,2 +1,3 @@
 User-agent: *
 Disallow:
+Sitemap: https://nextjs-14-pokedex.vercel.app/sitemap.xml
